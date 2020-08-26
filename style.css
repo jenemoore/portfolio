@@ -1,0 +1,27 @@
+:root {
+    --main-grey: #8c9673;
+    --green-grey: #73965c;
+    --lt-green: #d2f5a2;
+    --bright-green: #83c920;
+    --main-purple: #9562de;
+}
+
+body {
+    background-color: var(--main-grey);
+    color: var(--main-purple);
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Righteous", cursive;
+    font-size: 130px;
+}
+
+h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+}
