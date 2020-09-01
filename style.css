@@ -1,17 +1,17 @@
 :root {
-    --main-grey: #8c9673;
-    --green-grey: #73965c;
-    --lt-green: #d2f5a2;
-    --bright-green: #83c920;
-    --main-purple: #9562de;
+    --brand-grey: #6a7970;
+    --brand-cream: #eff1c5;
+    --brand-orange: #e4572e;
+    --brand-purple: #32021f;
 }
 
 body {
-    background-color: var(--main-grey);
-    color: var(--main-purple);
+    background-color: var(--brand-cream);
+    color: var(--brand-purple);
+    font: 19px/1.5 Comfortaa, sans-serif;
 }
 
-.hero {
+header {
     text-align: center;
 }
 
@@ -24,4 +24,12 @@ h2 {
     font-family: "Comfortaa", sans-serif;
     font-weight: 300;
     font-size: 60px;
+}
+
+article {
+  background-color: var(--brand-grey);
+  border-radius: 15px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 35px;
 }
